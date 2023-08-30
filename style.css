@@ -1,8 +1,10 @@
 body {
     background: hwb(299 2% 29% / 0.299);
-    color: rgb(45, 45, 45);
-    padding: 10px;
-    font-family: arial;
+    color: hsla(284, 79%, 30%, 0.999);
+    padding: 20px;
+    font-family:cursive;
+    border-radius:100px;
+    
 }
 #all-contents {
   max-width: 800px;
@@ -20,20 +22,23 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: #ffffff;
+    color: hwb(0 100% 0%);
     flex: 1;
     margin: 0;
 }
 #nav-ul {
-    list-style-image: none;
+    list-style-image:unset;
+
 }
 .nav-li {
     display: inline-block;
     padding: 0 10px;
 }
 a {
-    text-decoration: none;
-    color: #fff;
+    text-decoration:underline;
+    color: hwb(0 97% 3%);
+  
+
 }
 
 /* main container area beneath menu */
@@ -41,6 +46,8 @@ main {
     background: rgba(240, 168, 230, 0.56);
     display: flex;
     border-style: dotted;
+    border-color:hsl(0, 0%, 100%)
+    border-radius:20px;
 }
 .sidebar {
     margin-right: 25px;
@@ -51,7 +58,7 @@ main {
 }
 .content {
     flex: 1;
-    padding: 15px;
+    padding: 25px;
 }
 
 /* portfolio styles */
@@ -64,18 +71,21 @@ h2, h3 {
 }
          /* portfolio styles */
          .content h1 {
-            color: black;
+            color: hsl(0, 0%, 0%);
+            font-family:monospace
         }
-
+        h2{
+          animation: 1s glow ease-in-out infinite alternate;
+        }
         #portfolio {
-            list-style-type: none;
+            list-style-type:circle;
             padding-left: 0;
         }
 
         #portfolio li {
             background: #fff;
             padding: 10px;
-            border-radius: 10px;
+            border-radius: 20px;
             margin-bottom: 10px;
         }
 
@@ -84,7 +94,7 @@ h2, h3 {
         }
 
         #portfolio a {
-            text-decoration: none;
+            text-decoration:wavy;
             color: #454545;
         }
                     /* responsive web design */
@@ -101,6 +111,7 @@ h2, h3 {
           
                         h2 {
                           font-size: 42px;
+                          border-style:double;
                         }
           
                         h3 {
@@ -128,11 +139,11 @@ h2, h3 {
           
                         p,
                         li {
-                          font-size: 24px;
+                          font-size: 34px;
                         }
           
                         .content {
-                          align-content: center;
+                          align-content:baseline;
                           justify-content: center;
                         }
                     }
