@@ -4,8 +4,11 @@ body {
 
 canvas {
   background-color: lightgray;
+  background-image:url("https://w0.peakpx.com/wallpaper/560/640/HD-wallpaper-sunset-purple-pink-purple-sky-sunset.jpg");
+  
 }
 
 img {
+  
   display: none;
 }
