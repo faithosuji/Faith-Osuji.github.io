@@ -48,8 +48,9 @@ $(function () {
     createPlatform( 900, 495, 680, 15);
     createPlatform( 450, 400, 320, 15);
     createPlatform( 90, 270, 290, 13);
-    createPlatform( 495, 150, 190, 13);
-     createPlatform( 705, 90, 670, 15);
+    createPlatform( 495, 200, 190, 13);
+     createPlatform( 750, 100, 670, 15);
+     createPlatform( 905, 300, 670, 15);
 
   
     
@@ -66,8 +67,8 @@ $(function () {
     createCollectable("diamond", 1050, 300, 20, 0.5);
     createCollectable("diamond", 1190, 300, 20, 0.5);
     createCollectable("diamond", 1350, 300, 20, 0.5);
-
-
+    createCollectable("diamond", 610, 200, 13, 0.5);
+    createCollectable("diamond", 200, 175, 13, 0.5);
 
 
     // TODO 3
@@ -77,6 +78,8 @@ $(function () {
     // example usage: createCannon(side, position, delay, width, height)
     createCannon("top", 600, 1000);
     createCannon("top", 1250, 1000);
+    createCannon("bottom", 900, 1000);
+
 
 
 
