@@ -3,12 +3,14 @@ body {
 }
 
 canvas {
-  background-color: lightgray;
+  background-color:lightgray;
   background-image:url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4a2e20dc-53ec-4fd8-8cee-981c49e981c0/d59jkr7-c75e561e-99fe-4336-82ae-d89d60b68a58.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRhMmUyMGRjLTUzZWMtNGZkOC04Y2VlLTk4MWM0OWU5ODFjMFwvZDU5amtyNy1jNzVlNTYxZS05OWZlLTQzMzYtODJhZS1kODlkNjBiNjhhNTgucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Ahp5yCVTJnSkw0JQuyb1c9nfXUZ-cBFhHFAgEgXOPTs");
+  background-size: 100%;
   
 }
 
 img {
   
   display: none;
+  
 }

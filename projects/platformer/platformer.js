@@ -66,9 +66,11 @@ $(function () {
     createCollectable("diamond", 350, 300, 20, 0.5);
     createCollectable("diamond", 1050, 300, 20, 0.5);
     createCollectable("diamond", 1190, 300, 20, 0.5);
-    createCollectable("diamond", 1350, 300, 20, 0.5);
+    createCollectable("diamond", 1320, 300, 20, 0.5);
     createCollectable("diamond", 610, 200, 13, 0.5);
     createCollectable("diamond", 200, 175, 13, 0.5);
+    createCollectable("diamond", 1100, 175, 10, 0.5);
+    createCollectable("diamond", 1290, 175, 10, 0.5);
 
 
     // TODO 3
@@ -79,6 +81,9 @@ $(function () {
     createCannon("top", 600, 1000);
     createCannon("top", 1250, 1000);
     createCannon("bottom", 900, 1000);
+    createCannon("top", 270, 1000);
+    createCannon("top", 1460, 0);
+
 
 
 
