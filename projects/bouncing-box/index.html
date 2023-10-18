@@ -15,14 +15,14 @@
 			display: block;
 			position: absolute;
 			top: 100px;
-			left: 0px;  /* <--- Change me! */
+			left: 650px;  /* <--- Change me! */
 		}
 		.board{
 			height: 100vh;
 		}
 	</style>
 	<!-- 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
-
+	
 </head>
 <body class="board">
 	<!-- HTML for the box -->
@@ -62,7 +62,9 @@
 			//////////////////////////////////////////////////////////////////
 			
 			// TODO 2 - Variable declarations 
-			
+			var positionX = 0;
+			var points = 0
+			var speed = 10
 
 			
 			/* 
@@ -71,8 +73,9 @@
 			turn it around! 
 			*/
 			function update() {
-				
-
+				 /* We want to increase positionX by 10 */
+				 positionX = positionX + speed;
+				moveBoxTo(positionX);
 			};
 
 			/* 
@@ -81,9 +84,9 @@
 			the left side of the screen.
 			*/
 			function handleBoxClick() {
-				
-
-
+				positionX = 0;
+				points = points + 1;
+				changeBoxText(points);
 			};
 		})();
 	</script>
